@@ -21,7 +21,7 @@ cli.show(["hogeuser"],function(tasks) {
 });
 
 // Get a detail of a task
-cli.detail("id_of_task", functino(t) {
+cli.detail("id_of_task", function(t) {
     console.log(t.Id + " : " + t.Summary);
 });
 
