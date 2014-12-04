@@ -1,4 +1,5 @@
 # trafini-client-js
+*** Under Construction ***
 Javascript(browser) client of trafini.
 
 ## Examples
@@ -6,6 +7,7 @@ For Browser:
 ```js
 
 var cli = new Trafini("http://localhost/");
+cli.setApiKey("your_api_key");
 
 // Add new task
 cli.add({
