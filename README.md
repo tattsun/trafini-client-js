@@ -3,7 +3,7 @@ Javascript(browser) client of trafini.
 
 ## Examples
 For Browser:
-```
+```js
 
 var cli = new Trafini("http://localhost/");
 
