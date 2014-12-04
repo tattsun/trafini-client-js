@@ -52,3 +52,17 @@ cli.unfinish("id_of_task", function() {
 });
 
 ```
+
+## Object Schema
+
+```js
+task:
+    {
+        Id: string,
+        Priority: number,
+        Tags: string[],
+        Summary: string,
+        Detail: string,
+        Finished: bool
+    }
+```
